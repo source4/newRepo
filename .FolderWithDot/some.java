@@ -29,7 +29,7 @@
         \
         \cf5 XCTAssert\cf3 (sheetsQuery.\cf4 staticTexts\cf5 [\cf6 "Clone a repository"\cf5 ]\cf3 .\cf4 exists\cf3 )\
         \
-        \cf7 //Enter Github Https link\
+        \cf7 //Enter Github Https link here\
 \cf3         \cf2 let\cf3  defaultrepoiconCell = repobrowserWindow\cf7 /*@START_MENU_TOKEN@*/\cf3 .\cf4 outlines\cf7 /*[[".groups",".scrollViews.outlines",".outlines"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/\cf3 .\cf5 children\cf3 (matching: .\cf5 outlineRow\cf3 ).\cf5 element\cf3 (boundBy: \cf8 0\cf3 ).\cf4 cells\cf3 .\cf5 containing\cf3 (.\cf5 image\cf3 , identifier:\cf6 "defaultrepoicon"\cf3 ).\cf4 element\cf3 \
         defaultrepoiconCell.\cf5 typeText\cf3 (\cf4 Constants\cf3 .\cf4 gitURLHttps\cf3  \cf2 as\cf3  \cf9 String\cf3 )\
         \
