@@ -51,5 +51,5 @@
         \
         \cf5 XCTAssert\cf3 (repoType.\cf4 exists\cf3 )\
        \
-        \cf7 //XCTAssert(sheetsQuery.staticTexts["This is a Git repository"].exists)\
+        \cf7 //XCTAssertFail(sheetsQuery.staticTexts["This is a Git repository"].exists)\
 \cf3         sheetsQuery.\cf4 buttons\cf5 [\cf6 "Cancel"\cf5 ]\cf3 .\cf5 click\cf3 ()}
